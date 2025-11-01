@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import { MdDelete } from "react-icons/md";
 import { FaPencilAlt } from "react-icons/fa";
 import TaskUpdateModal from './taskUpdateModal';
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+ import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 
 
 const TaskView = () => {
